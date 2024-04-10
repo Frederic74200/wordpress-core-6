@@ -4,14 +4,18 @@
         display: flex;
         justify-content: space-around;
         padding: 2%;
+
     }
 
-
+    .logo {
+        max-height: 15vh;
+    }
 
     main {
         width: 60vw;
         margin-left: auto;
         margin-right: auto;
+        min-height: 65vh;
     }
 
     .wp-block-heading {
@@ -19,4 +23,13 @@
         letter-spacing: 0.5rem;
     }
 
+
+    .wp-block-image {
+
+        display: block;
+        max-width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1vh;
+    }
 }

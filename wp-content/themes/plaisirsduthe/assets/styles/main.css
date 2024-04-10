@@ -61,7 +61,8 @@ h1 {
     font-size: 2em;
 }
 
-h2 {
+h2,
+.sitename {
     font-size: 1.5em;
 }
 
@@ -112,6 +113,8 @@ header {
 
 footer {
     background-color: var(--color-1);
+    position: relative;
+    height: 3vh;
 }
 
 .p-foot {
