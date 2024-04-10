@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('../fonts/PlayfairDisplay-SemiBold.ttf');
+
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* variables */
+
+:root {
+    /* color */
+    --color-1: #73af01;
+    --color-2: #ffffff;
+    --color-3: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: 'Open Sans';
+    margin: 0;
+    color: var(--color-3);
+    background: var(--color-2);
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sitename {
+    text-align: center;
+    letter-spacing: 1rem;
+    color: var(--color-1);
+    font-family: "Playfair";
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.875em;
+}
+
+a,
+a:visited {
+    color: var(--color-1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul,
+menu ul {
+    list-style-type: none;
+    color: var(--color-1);
+}
+
+nav ul a,
+menu ul li a {
+    font-family: "Playfair";
+    color: var(--color-1);
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.logo {
+    display: block;
+}
+
+header {
+    border-bottom: 5px solid var(--color-1)
+}
+
+footer {
+    background-color: var(--color-1);
+}
+
+.p-foot {
+    color: var(--color-2);
+    text-align: center;
+}
+
+.post {
+    padding: 5%;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--color-1);
+    margin-bottom: 2%;
+}
